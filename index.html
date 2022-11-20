@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        Tictactoe AI
+    </nav>
+
+    <div id="container" class="container"></div>
+    <div id="results"></div>
+    <div id="controls">
+        <div class="labels">
+            <label for="size">Tamaño</label>
+            <label for="depth">Profundidad de búsqueda</label>
+            <label for="hs">Inicia el humano (1,0)</label>
+        </div>
+        <div class="values">
+            <input type="number" id="size">
+            <input type="number" id="depth">
+            <input type="number" id="hs">
+        </div>
+        <button id="config">Aplicar</button>
+    </div>
+    
+    <script src="Minimax.js"></script>
+    <script src="Board.js"></script>
+</body>
+</html>
